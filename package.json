@@ -1,0 +1,18 @@
+{
+  "name": "eventx-root-wrapper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root convenience wrapper for EventX workspace in ./Event-Exchange",
+  "scripts": {
+    "postinstall": "npm --prefix ./Event-Exchange install",
+    "dev": "npm --prefix ./Event-Exchange run dev",
+    "dev:server": "npm --prefix ./Event-Exchange run dev:server",
+    "dev:client": "npm --prefix ./Event-Exchange run dev:client",
+    "build": "npm --prefix ./Event-Exchange run build",
+    "typecheck": "npm --prefix ./Event-Exchange run typecheck",
+    "test": "npm --prefix ./Event-Exchange test",
+    "seed": "npm --prefix ./Event-Exchange run seed",
+    "seed:eventx": "npm --prefix ./Event-Exchange run seed:eventx",
+    "create:eventx-admin": "npm --prefix ./Event-Exchange run create:eventx-admin"
+  }
+}
